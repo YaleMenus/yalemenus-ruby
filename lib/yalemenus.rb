@@ -4,7 +4,7 @@ require "json"
 
 class YaleMenus
 
-    @@API_ROOT = "https://yaledine.com/api/"
+    @@API_ROOT = "https://api.yalemenus.com/"
 
     def self.get(path, params: nil)
         uri = URI(@@API_ROOT + path)
